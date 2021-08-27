@@ -32,7 +32,7 @@ def display_loop(display,w,h):
   image = Image.new(mode='1', size=(w,h), color=255)
   draw = ImageDraw.Draw(image)
 
-  draw.text((0,0), 'This was a triumph', font = body, fill=0, align='left')
+  draw.text((0,0), 'Hello Robbyn this is the beginning of the home board.', font = body, fill=0, align='left')
   print('writing image')
   display.display(display.getbuffer(image)) 
 
